@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 body {
-    margin: 0px;
+    margin-top: -107px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 header {
     background-color: black;
@@ -14,7 +16,7 @@ header > h1 {
     padding-top: 50px;
     font-family: 'Passion One', cursive;
     text-align: center;
-    font-size: 11em;
+    font-size: 10em;
     margin-bottom: 10px;
 }
 header > aside {
@@ -27,5 +29,23 @@ main {
 }
 main p {
     font-family: 'Sriracha', cursive;
-    font-size: 5em;
+    font-size: 4em;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin-bottom: -50px;
+}
+footer > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+footer > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
 }
