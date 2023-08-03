@@ -3,10 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-body {
-    margin-top: -107px;
-    margin-left: 0px;
-    margin-right: 0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 header {
     background-color: black;
@@ -24,17 +23,16 @@ header > aside {
     text-align: center;
     padding-bottom: 30px;
 }
-main {
-    padding: 50px 30px;
-}
 main p {
     font-family: 'Sriracha', cursive;
     font-size: 4em;
 }
+article#f1 {
+    background-image: url(imagens/background001.jpg);
+}
 footer {
     background-color: black;
     color: white;
-    margin-bottom: -50px;
 }
 footer > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
