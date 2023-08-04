@@ -27,8 +27,23 @@ main p {
     font-family: 'Sriracha', cursive;
     font-size: 4em;
 }
-article#f1 {
+.imagemfundo {
+    color: white;
+}
+article {
+    padding: 50px 30px;
+}
+article.textoeimagem {
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    margin: 40px;
+}
+section#imagem1 {
     background-image: url(imagens/background001.jpg);
+}
+section#imagem2 {
+    background-image: url(imagens/background002.jpg);
 }
 footer {
     background-color: black;
