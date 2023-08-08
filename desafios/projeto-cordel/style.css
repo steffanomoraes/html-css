@@ -26,24 +26,26 @@ header > aside {
 main p {
     font-family: 'Sriracha', cursive;
     font-size: 4em;
+    margin-bottom: 100px;
 }
 .imagemfundo {
     color: white;
 }
-article {
+article.texto{
     padding: 50px 30px;
 }
 article.textoeimagem {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.486);
     width: fit-content;
     height: fit-content;
-    margin: 40px;
 }
 section#imagem1 {
     background-image: url(imagens/background001.jpg);
+    padding: 40px;
 }
 section#imagem2 {
     background-image: url(imagens/background002.jpg);
+    padding: 40px;
 }
 footer {
     background-color: black;
