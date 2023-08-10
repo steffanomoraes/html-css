@@ -40,13 +40,17 @@ article.textoeimagem {
     width: fit-content;
     height: fit-content;
 }
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 section#imagem1 {
     background-image: url(imagens/background001.jpg);
-    padding: 40px;
+    padding-left: 40px;
 }
 section#imagem2 {
     background-image: url(imagens/background002.jpg);
-    padding: 40px;
+    padding-left: 40px;
 }
 footer {
     background-color: black;
