@@ -15,9 +15,8 @@ header > h1 {
     padding-top: 50px;
     font-family: 'Passion One', cursive;
     text-align: center;
-    font-size: 10em;
+    font-size: 10vw;
     margin-bottom: 10px;
-    min-width: 150px;
 }
 header > aside {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,31 +25,30 @@ header > aside {
 }
 main p {
     font-family: 'Sriracha', cursive;
-    font-size: 4em;
+    font-size: 3.5vw;
     margin-bottom: 100px;
 }
 .imagemfundo {
     color: white;
 }
 article.texto{
-    padding: 50px 30px;
+   padding-left: 40px;
 }
 article.textoeimagem {
     background-color: rgba(0, 0, 0, 0.486);
     width: fit-content;
     height: fit-content;
+    margin-left: 40px;
 }
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
 section#imagem1 {
-    background-image: url(imagens/background001.jpg);
-    padding-left: 40px;
+    background: black url(imagens/background001.jpg) right bottom no-repeat fixed;
 }
 section#imagem2 {
-    background-image: url(imagens/background002.jpg);
-    padding-left: 40px;
+    background: black url(imagens/background002.jpg) center center no-repeat fixed;
 }
 footer {
     background-color: black;
