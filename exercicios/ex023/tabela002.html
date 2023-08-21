@@ -8,9 +8,15 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
-        table {
+        table { /*CSS da tabela toda*/ 
             width: 400px;
             border-collapse: collapse;
+        }
+        tbody >tr:nth-child(even) { /*Efeito zebrado: todos os pares ficam com */
+            background-color: white;
+        }
+        tbody > tr:nth-child(odd) { /*Efeito zebrado*/
+            background-color: lightgray;
         }
         td, th {
             border: 1px solid black;
@@ -20,18 +26,23 @@
             background-color: grey;
             color: white;
         }
+        caption {
+            background-color: lightgrey;
+            padding: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption> <!--Legenda da tabela que fica em cima-->
         <thead>  <!--Cabeçalho da tabela-->
             <tr> <!-- Linha da tabela -->
-                <th>Estado </th> <!--Titulo na tabela-->
-                <th>População</th> <!--Titulo na tabela-->
-
+                <th scope="col">Estado </th> <!--Titulo na tabela e o Scope é a coluna-->
+                <th scope="col" style="width: 50px;">População</th> <!--Titulo na tabela-->
             </tr>
-
         </thead>
         <tbody> <!--Corpo da tabela-->
             <tr> <!--Linha da tabela-->
@@ -48,7 +59,7 @@
             </tr>
         </tbody>
         <tfoot> <!-- Rodapé da tabela -->
-            <th>Total de habitantes</th>
+            <th scope="row">Total de habitantes</th> <!--Scope é a linha-->
             <td>000.000.000</td>
         </tfoot>
     </table>
