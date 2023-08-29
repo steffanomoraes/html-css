@@ -7,9 +7,27 @@
     <style>
         table {
             border-collapse: collapse;
+            width: 400px;
         }
         td, th {
             border: 1px solid black;
+            text-align: center;
+        }
+        th {
+            background-color: grey;
+            color: white;
+        }
+        th.fundobranco {
+            background-color: white;
+            color: black;
+        }
+        td.fundocinza {
+            background-color: grey;
+            color: white;
+            font-weight: bold;
+        }
+        .disciplina {
+            text-align: left;
         }
     </style>
 </head>
@@ -28,7 +46,54 @@
                 <th scope="col"> Nota 2</th>
             </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup" class="fundobranco">Exatas</th>
+                <td class="disciplina">Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="disciplina">Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="disciplina">Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="disciplina">Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="row">Média de Exatas</th>
+                <td class="fundocinza">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup" class="fundobranco">Humanas</th>
+                <td class="disciplina">História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="disciplina">Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="row">Média de Humanas</th>
+                <td class="fundocinza">0.0</td>
+            </tr>
+        </tbody>
         <tfoot></tfoot>
     </table>
 </body>
